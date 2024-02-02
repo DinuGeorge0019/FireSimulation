@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{7b6bfe42-5063-43b4-80d4-8c0eb0d7937e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Terrain">
+      <UniqueIdentifier>{db59f97d-179a-408c-88e5-b967f19c02be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cylinder">
+      <UniqueIdentifier>{c7797b7d-df9b-4afb-864e-4794fe8cb206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Skybox">
+      <UniqueIdentifier>{0842d19c-095b-4f9a-91a0-b3f2a4be167d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bonfire">
+      <UniqueIdentifier>{63d2b1f6-a45b-4ec6-aebb-f1291e7165b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ForestFloor">
+      <UniqueIdentifier>{2a0a3187-dfd1-4c85-b0b5-2cd2216c6bfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shrub">
+      <UniqueIdentifier>{72406537-055e-4860-b973-ff8283a1a54c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shadow">
+      <UniqueIdentifier>{985a363a-d1cb-4c6a-a3e2-9a103886d8cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{c3e722e7-e8b5-407c-b3e0-5b64205472a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Lib3dsObjects">
+      <UniqueIdentifier>{24dc220c-653c-4a7f-95d9-ab4e7e5f8f5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures">
+      <UniqueIdentifier>{449381b7-ac16-4202-a2b2-631be53dbf85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OpenGLWrapper">
+      <UniqueIdentifier>{97a25c60-9f7f-42fd-afa2-df0a87dd6830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OpenGLWrapper\GlfwWrapper">
+      <UniqueIdentifier>{65f0b68f-8109-4539-a582-7973517872d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OpenGLWrapper\TextureLoader">
+      <UniqueIdentifier>{f0d83d04-53a1-416f-bd9f-e898cb742eca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{2e4f616e-fa67-4cd8-b6bd-96ebe5ed4071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParticleEffectContainer">
+      <UniqueIdentifier>{5d000f08-e779-43f9-ad73-70f1c48da9ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParticleEffectContainer\FireParticleEffect">
+      <UniqueIdentifier>{c07e2ae0-c7a7-4885-a022-24e29930e44b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParticleEffectContainer\SmokeParticleEffect">
+      <UniqueIdentifier>{8a4f3819-1e3f-4a18-8dd3-f6b463683caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParticleEffectContainer\ParticleEffect">
+      <UniqueIdentifier>{e4a77639-8b7b-491f-9df7-ff05f1b88dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParticleEffectContainer\TorchFireParticleEffect">
+      <UniqueIdentifier>{022e6d03-2b25-43a7-b8de-483657c1e3ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bonfire\bonfire.cpp">
+      <Filter>Source Files\Bonfire</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\terrain_object.cpp">
+      <Filter>Source Files\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox\skybox.cpp">
+      <Filter>Source Files\Skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="Shrub\shrub.cpp">
+      <Filter>Source Files\Shrub</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadow\shadow.cpp">
+      <Filter>Source Files\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="ForestFloor\forest_floor.cpp">
+      <Filter>Source Files\ForestFloor</Filter>
+    </ClCompile>
+    <ClCompile Include="ForestFloor\instanced_forest.cpp">
+      <Filter>Source Files\ForestFloor</Filter>
+    </ClCompile>
+    <ClCompile Include="Cylinder\cylinder.cpp">
+      <Filter>Source Files\Cylinder</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLWrapper\GlfwWrapper\wrapper_glfw.cpp">
+      <Filter>Source Files\OpenGLWrapper\GlfwWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLWrapper\TextureLoader\texture_loader.cpp">
+      <Filter>Source Files\OpenGLWrapper\TextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEffectContainer\FireParticleEffect\fire_particle_effect.cpp">
+      <Filter>Source Files\ParticleEffectContainer\FireParticleEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEffectContainer\ParticleEffect\particle_effect.cpp">
+      <Filter>Source Files\ParticleEffectContainer\ParticleEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEffectContainer\SmokeParticleEffect\smoke_particle_effect.cpp">
+      <Filter>Source Files\ParticleEffectContainer\SmokeParticleEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEffectContainer\TorchFireParticleEffect\torch_particle_effect.cpp">
+      <Filter>Source Files\ParticleEffectContainer\TorchFireParticleEffect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bonfire\bonfire.h">
+      <Filter>Source Files\Bonfire</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\terrain_object.h">
+      <Filter>Source Files\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox\skybox.h">
+      <Filter>Source Files\Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="Shrub\shrub.h">
+      <Filter>Source Files\Shrub</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadow\shadow.h">
+      <Filter>Source Files\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="ForestFloor\forest_floor.h">
+      <Filter>Source Files\ForestFloor</Filter>
+    </ClInclude>
+    <ClInclude Include="ForestFloor\instanced_forest.h">
+      <Filter>Source Files\ForestFloor</Filter>
+    </ClInclude>
+    <ClInclude Include="Cylinder\cylinder.h">
+      <Filter>Source Files\Cylinder</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLWrapper\GlfwWrapper\wrapper_glfw.h">
+      <Filter>Source Files\OpenGLWrapper\GlfwWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLWrapper\TextureLoader\texture_loader.h">
+      <Filter>Source Files\OpenGLWrapper\TextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\camera.h">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEffectContainer\FireParticleEffect\fire_particle_effect.h">
+      <Filter>Source Files\ParticleEffectContainer\FireParticleEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEffectContainer\ParticleEffect\particle_effect.h">
+      <Filter>Source Files\ParticleEffectContainer\ParticleEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEffectContainer\SmokeParticleEffect\smoke_particle_effect.h">
+      <Filter>Source Files\ParticleEffectContainer\SmokeParticleEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEffectContainer\particle.h">
+      <Filter>Source Files\ParticleEffectContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEffectContainer\TorchFireParticleEffect\torch_particle_effect.h">
+      <Filter>Source Files\ParticleEffectContainer\TorchFireParticleEffect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Lib3dsObjects\Tree1.3ds">
+      <Filter>Assets\Lib3dsObjects</Filter>
+    </None>
+    <None Include="Shaders\fragmentshader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\particle_geometry.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\particle_object.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\particle_object.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\vertexshader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Textures\fire.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\fire_particle.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\forest_.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\forest_bump.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\pine.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\skybox.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\smoke_particle.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Textures\wood_texture.png">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
